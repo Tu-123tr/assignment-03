@@ -27,7 +27,7 @@ h1 {
   height: 50vh;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/banner.jpg);
+    url(../images/banner.jpg);
   color: #f7f7f7;
   text-align: center;
   line-height: 1.2;
@@ -215,7 +215,9 @@ li {
   grid-column: 1/-1;
 }
 /*Dự án*/
-#project h1 {
+#project a {
+  color: #000;
+  text-decoration: none;
   grid-column: 1/-1;
 }
 #project img {
