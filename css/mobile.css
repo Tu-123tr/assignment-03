@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+  * {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  /*Banner*/
+  #banner {
+    background-size: 400%;
+  }
+  .banner-text h1 {
+    padding-top: 64px;
+    font-size: 64px;
+  }
+  .banner-text {
+    width: max-content;
+  }
+
+  /*NAVBAR*/
+  #nav-bar .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 24px;
+  }
+  #nav-bar a:last-child {
+    border: none;
+  }
+  #nav-bar a:first-child {
+    border: none;
+  }
+  #nav-bar a {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  /*Mục tiêu, thông tin*/
+  #about .container {
+    grid-template-rows: 1fr 1fr;
+  }
+  #target {
+    grid-column: 1/-1;
+  }
+  #personal-info {
+    grid-column: 1/-1;
+  }
+  /*THÔNG TIN NGHỀ NGHIỆP*/
+  #job-info .container {
+    grid-template-columns: 1fr;
+  }
+  /*CHỨNG CHỈ GIẢI THƯỞNG*/
+  #certificate .container {
+    grid-template-columns: 1fr;
+  }
+  .certificate-content-frist {
+    border-right: none;
+    border-bottom: 1px solid orange;
+    padding-bottom: 48px;
+    padding-right: 0px;
+  }
+  /*Dự án*/
+  #project .container {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  /*Footer*/
+  .footer-container p {
+    display: none;
+  }
+  .footer-container i {
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+  }
+}
